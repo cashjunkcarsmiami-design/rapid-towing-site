@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rapid Towing Miami | 24/7 Tow Truck & Roadside Assistance</title>
+  <meta name="description" content="Rapid Towing provides 24/7 towing, flatbed towing, jump starts, lockouts, and roadside assistance in Miami. Call (305) 457-0817 for fast help.">
+  <link rel="canonical" href="https://rapid-towing.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rapid Towing Miami | 24/7 Tow Truck Service">
+  <meta property="og:description" content="Fast towing and roadside assistance in Miami. Call Rapid Towing at (305) 457-0817.">
+  <meta property="og:url" content="https://rapid-towing.com/">
+  <meta name="theme-color" content="#0f172a">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #101820;
+      --muted: #5b6572;
+      --line: #dde3ea;
+      --brand: #e9b949;
+      --brand-dark: #9b6b00;
+      --bg: #f6f8fb;
+      --panel: #ffffff;
+      --dark: #111827;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.55;
+    }
+    a { color: inherit; }
+    .topbar {
+      background: var(--dark);
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 15px;
+    }
+    .topbar .wrap, .nav .wrap, section, footer .wrap {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    .topbar .wrap {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .topbar a { text-decoration: none; font-weight: 700; }
+    .nav {
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+    }
+    .nav .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 16px 0;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 22px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .bolt {
+      width: 34px;
+      height: 34px;
+      border-radius: 6px;
+      background: var(--brand);
+      display: grid;
+      place-items: center;
+      color: #111;
+      font-weight: 900;
+    }
+    .navlinks {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .navlinks a { text-decoration: none; }
+    .hero {
+      background: linear-gradient(135deg, #111827 0%, #253044 58%, #54410d 100%);
+      color: #fff;
+      padding: 70px 0;
+    }
+    .hero-grid {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(280px, .8fr);
+      gap: 36px;
+      align-items: center;
+    }
+    .eyebrow {
+      color: #ffe39a;
+      font-weight: 800;
+      letter-spacing: .02em;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+    h1 {
+      font-size: clamp(36px, 6vw, 64px);
+      line-height: 1.02;
+      margin: 12px 0 16px;
+      letter-spacing: 0;
+    }
+    .hero p {
+      font-size: 20px;
+      color: #e7edf5;
+      margin: 0 0 24px;
+      max-width: 680px;
+    }
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 12px 18px;
+      border-radius: 6px;
+      font-weight: 800;
+      text-decoration: none;
+      border: 1px solid transparent;
+    }
+    .btn.primary { background: var(--brand); color: #111; }
+    .btn.secondary { border-color: rgba(255,255,255,.45); color: #fff; }
+    .quick-card {
+      background: rgba(255,255,255,.1);
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: 8px;
+      padding: 22px;
+    }
+    .quick-card h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+    }
+    .quick-card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 10px;
+    }
+    .quick-card li::before {
+      content: "✓";
+      color: #ffe39a;
+      font-weight: 900;
+      margin-right: 8px;
+    }
+    section {
+      padding: 54px 0;
+    }
+    .section-title {
+      font-size: 34px;
+      line-height: 1.15;
+      margin: 0 0 12px;
+    }
+    .section-copy {
+      color: var(--muted);
+      max-width: 760px;
+      margin: 0 0 26px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 20px;
+      min-height: 100%;
+    }
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 20px;
+    }
+    .card p { margin: 0; color: var(--muted); }
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+    .service-areas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 0;
+      margin: 20px 0 0;
+      list-style: none;
+    }
+    .service-areas li {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-weight: 700;
+    }
+    .contact {
+      background: #fff;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+    form {
+      display: grid;
+      gap: 12px;
+    }
+    label {
+      display: grid;
+      gap: 6px;
+      font-weight: 700;
+    }
+    input, textarea {
+      width: 100%;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      padding: 12px;
+      font: inherit;
+    }
+    textarea { min-height: 110px; resize: vertical; }
+    button.btn {
+      cursor: pointer;
+      font: inherit;
+    }
+    footer {
+      background: var(--dark);
+      color: #dbe4ef;
+      padding: 28px 0;
+      font-size: 15px;
+    }
+    footer a { color: #fff; }
+    @media (max-width: 840px) {
+      .hero-grid, .split { grid-template-columns: 1fr; }
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 560px) {
+      .grid { grid-template-columns: 1fr; }
+      .nav .wrap { align-items: flex-start; flex-direction: column; }
+      .hero { padding: 48px 0; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TowingService",
+    "name": "Rapid Towing",
+    "url": "https://rapid-towing.com/",
+    "telephone": "+1-305-457-0817",
+    "email": "rapid.towingmiami@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "6994 NW 42 St",
+      "addressLocality": "Miami",
+      "addressRegion": "FL",
+      "postalCode": "33166",
+      "addressCountry": "US"
+    },
+    "areaServed": ["Miami", "Doral", "Hialeah", "Miami Springs", "Medley", "Virginia Gardens", "West Miami"],
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    }],
+    "priceRange": "$$",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Towing and Roadside Assistance",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Flatbed Towing"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Roadside Assistance"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jump Starts"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Car Lockouts"}}
+      ]
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do you offer 24/7 towing in Miami?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Rapid Towing is available for emergency towing and roadside assistance in Miami day or night."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I request flatbed towing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Flatbed towing is available for vehicles that need careful, secure, damage-free transport."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What information should I send when I need a tow?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Send your pickup location, destination, vehicle type, issue, and best phone number so dispatch can respond quickly."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you help with car lockouts and jump starts?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Rapid Towing helps with car lockouts, jump starts, and common roadside assistance needs in Miami."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <span>24/7 emergency towing service in Miami</span>
+      <a href="tel:+13054570817">Call Now: (305) 457-0817</a>
+    </div>
+  </div>
+  <nav class="nav" aria-label="Main navigation">
+    <div class="wrap">
+      <a class="logo" href="/" aria-label="Rapid Towing home"><span class="bolt">R</span> Rapid Towing</a>
+      <div class="navlinks">
+        <a href="#services">Services</a>
+        <a href="#areas">Service Areas</a>
+        <a href="#faq">FAQ</a>
+        <a href="#espanol">Español</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">Tow truck service in Miami</div>
+        <h1>Rapid Towing Miami, 24/7 Tow Truck and Roadside Assistance</h1>
+        <p>Fast, reliable towing for drivers and businesses in Miami. Call for flatbed towing, roadside assistance, jump starts, lockouts, and emergency vehicle recovery.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="tel:+13054570817">Call (305) 457-0817</a>
+          <a class="btn secondary" href="#contact">Book a Tow</a>
+        </div>
+      </div>
+      <div class="quick-card" aria-label="Rapid Towing highlights">
+        <h2>Ready When You Need Help</h2>
+        <ul>
+          <li>24/7 emergency dispatch</li>
+          <li>Flatbed towing available</li>
+          <li>Roadside help across Miami</li>
+          <li>Fast response for urgent calls</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section id="services">
+    <h2 class="section-title">Towing and Roadside Assistance Services</h2>
+    <p class="section-copy">Rapid Towing helps with local towing, vehicle transport, emergency roadside service, and urgent driver support throughout Miami-Dade.</p>
+    <div class="grid">
+      <article class="card">
+        <h3>Flatbed Towing</h3>
+        <p>Safe vehicle transport for cars that need extra care, long-distance movement, or damage-free loading. <a href="/flatbed-towing-miami.html">Learn more</a>.</p>
+      </article>
+      <article class="card">
+        <h3>Roadside Assistance</h3>
+        <p>Help for common road problems including tire issues, fuel delivery, and emergency support. <a href="/roadside-assistance-miami.html">Learn more</a>.</p>
+      </article>
+      <article class="card">
+        <h3>Jump Starts</h3>
+        <p>Dead battery? Call Rapid Towing for fast jump start service in Miami and nearby areas. <a href="/jump-start-miami.html">Learn more</a>.</p>
+      </article>
+      <article class="card">
+        <h3>Car Lockouts</h3>
+        <p>Locked out of your vehicle? We help drivers regain access quickly and carefully. <a href="/car-lockout-miami.html">Learn more</a>.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="areas">
+    <div class="split">
+      <div>
+        <h2 class="section-title">Local Towing Service Areas</h2>
+        <p class="section-copy">Our Miami towing team supports drivers near major roads, businesses, homes, parking lots, and vehicle pickup points.</p>
+        <ul class="service-areas">
+          <li><a href="/towing-miami.html">Miami</a></li>
+          <li><a href="/towing-doral.html">Doral</a></li>
+          <li><a href="/towing-hialeah.html">Hialeah</a></li>
+          <li><a href="/towing-miami-springs.html">Miami Springs</a></li>
+          <li><a href="/towing-medley.html">Medley</a></li>
+          <li><a href="/towing-virginia-gardens.html">Virginia Gardens</a></li>
+          <li><a href="/towing-west-miami.html">West Miami</a></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Our Location</h3>
+        <p>6994 NW 42 St<br>Miami, FL 33166</p>
+        <p><strong>Phone:</strong> <a href="tel:+13054570817">(305) 457-0817</a></p>
+        <p><strong>Email:</strong> <a href="mailto:rapid.towingmiami@gmail.com">rapid.towingmiami@gmail.com</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="why">
+    <h2 class="section-title">Why Drivers Call Rapid Towing</h2>
+    <p class="section-copy">When your car stops, the right towing company should be easy to reach, clear about next steps, and ready to move fast.</p>
+    <div class="grid">
+      <article class="card">
+        <h3>Fast Dispatch</h3>
+        <p>Call directly and share your location so the tow request can be handled quickly.</p>
+      </article>
+      <article class="card">
+        <h3>Local Miami Help</h3>
+        <p>Service focused around Miami, Doral, Hialeah, Miami Springs, Medley, and nearby areas.</p>
+      </article>
+      <article class="card">
+        <h3>Clear Service Options</h3>
+        <p>Ask for flatbed towing, roadside assistance, jump starts, lockout help, or vehicle transport.</p>
+      </article>
+      <article class="card">
+        <h3>Call-First Support</h3>
+        <p>For urgent towing, calling is the fastest way to confirm availability and next steps.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="espanol">
+    <h2 class="section-title">Servicio de Grúa en Miami</h2>
+    <p class="section-copy">Rapid Towing ofrece servicio de grúa, asistencia en carretera, jump starts, lockouts y flatbed towing en Miami y áreas cercanas. Para ayuda rápida, llama al <a href="tel:+13054570817">(305) 457-0817</a>.</p>
+    <div class="grid">
+      <article class="card">
+        <h3>Grúa 24/7</h3>
+        <p>Ayuda para emergencias de towing en Miami durante el día o la noche.</p>
+      </article>
+      <article class="card">
+        <h3>Flatbed Towing</h3>
+        <p>Transporte seguro para autos que necesitan cuidado especial.</p>
+      </article>
+      <article class="card">
+        <h3>Asistencia en Carretera</h3>
+        <p>Ayuda con batería, lockouts, problemas comunes y traslado del vehículo.</p>
+      </article>
+      <article class="card">
+        <h3>Llama Ahora</h3>
+        <p>Habla directo con Rapid Towing al <a href="tel:+13054570817">(305) 457-0817</a>.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2 class="section-title">Miami Towing FAQ</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Do you offer 24/7 towing?</h3>
+        <p>Yes. Rapid Towing is available for emergency towing and roadside help day or night.</p>
+      </article>
+      <article class="card">
+        <h3>Can I request flatbed towing?</h3>
+        <p>Yes. Flatbed towing is available for vehicles that need careful, secure transport.</p>
+      </article>
+      <article class="card">
+        <h3>What details should I send?</h3>
+        <p>Send your location, vehicle type, problem, destination, and best phone number.</p>
+      </article>
+      <article class="card">
+        <h3>Do you help with lockouts?</h3>
+        <p>Yes. We provide car lockout assistance and other roadside support in Miami.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="split">
+      <div>
+        <h2 class="section-title">Book a Service</h2>
+        <p class="section-copy">Need a tow urgently? Call now for the fastest response. You can also send a request and we will contact you.</p>
+        <p><a class="btn primary" href="tel:+13054570817">Call Now</a></p>
+      </div>
+      <form name="tow-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
+        <input type="hidden" name="form-name" value="tow-request">
+        <input type="hidden" name="bot-field">
+        <label>Full Name <input name="name" autocomplete="name" required></label>
+        <label>Phone Number <input name="phone" autocomplete="tel" required></label>
+        <label>Pickup Address <input name="pickup" required></label>
+        <label>Drop-off Address <input name="dropoff"></label>
+        <label>Vehicle and Issue <textarea name="message" required></textarea></label>
+        <button class="btn primary" type="submit">Submit Request</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <strong>Rapid Towing</strong><br>
+      6994 NW 42 St, Miami, FL 33166 |
+      <a href="tel:+13054570817">(305) 457-0817</a> |
+      <a href="mailto:rapid.towingmiami@gmail.com">rapid.towingmiami@gmail.com</a>
+      <br>Copyright © 2026 Rapid-Towing.com. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>

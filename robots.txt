@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rapid-towing.com/sitemap.xml
+
