@@ -22,6 +22,11 @@
   ],
   "redirects": [
     {
+      "source": "/es",
+      "destination": "/#espanol",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
