@@ -27,6 +27,91 @@
       "permanent": true
     },
     {
+      "source": "/towing-coral-gables",
+      "destination": "/towing-coral-gables.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-doral",
+      "destination": "/towing-doral.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-downtown-miami",
+      "destination": "/towing-downtown-miami.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-hallandale-beach",
+      "destination": "/towing-hallandale-beach.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-hialeah-gardens",
+      "destination": "/towing-hialeah-gardens.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-hialeah",
+      "destination": "/towing-hialeah.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-hollywood",
+      "destination": "/towing-hollywood.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-homestead",
+      "destination": "/towing-homestead.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-kendall",
+      "destination": "/towing-kendall.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-medley",
+      "destination": "/towing-medley.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-miami",
+      "destination": "/towing-miami.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-miami-beach",
+      "destination": "/towing-miami-beach.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-miami-gardens",
+      "destination": "/towing-miami-gardens.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-miami-springs",
+      "destination": "/towing-miami-springs.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-north-miami",
+      "destination": "/towing-north-miami.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-virginia-gardens",
+      "destination": "/towing-virginia-gardens.html",
+      "permanent": true
+    },
+    {
+      "source": "/towing-west-miami",
+      "destination": "/towing-west-miami.html",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
