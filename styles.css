@@ -27,6 +27,21 @@ a {
   color: #101820;
   font-weight: 700;
 }
+input, textarea {
+  width: 100%;
+  border: 1px solid #dde3ea;
+  border-radius: 6px;
+  font: inherit;
+  min-height: 46px;
+  padding: 10px 12px;
+}
+textarea {
+  min-height: 112px;
+}
+label {
+  color: #101820;
+  font-weight: 800;
+}
 .btn {
   display: inline-flex;
   align-items: center;
@@ -41,4 +56,48 @@ a {
 .btn.primary {
   background: #e9b949;
   color: #111;
+}
+.btn.whatsapp {
+  background: #25d366;
+  color: #07150b;
+}
+
+.breadcrumb { font-size: 15px; color: #64748b; }
+.seo-section { margin-top: 34px; }
+.service-grid, .link-grid { display: grid; gap: 14px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.service-grid article, .cta-box { background: #fff; border: 1px solid #dde3ea; border-radius: 8px; padding: 18px; }
+.service-grid h3 { margin: 0 0 8px; font-size: 20px; }
+.service-grid p { font-size: 16px; margin: 0; }
+.link-grid a { background: #fff; border: 1px solid #dde3ea; border-radius: 8px; padding: 12px; text-decoration: none; }
+.check-list { color: #4b5563; font-size: 18px; }
+.cta-box { margin-top: 34px; border-top: 5px solid #e9b949; }
+.sticky-mobile-actions { display: none; }
+@media (max-width: 760px) {
+  body { padding-bottom: 76px; }
+  .service-grid, .link-grid { grid-template-columns: 1fr; }
+  .sticky-mobile-actions {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 10px;
+    background: rgba(16, 24, 32, 0.96);
+    box-shadow: 0 -8px 24px rgba(16, 24, 32, 0.22);
+  }
+  .sticky-mobile-actions a {
+    align-items: center;
+    border-radius: 6px;
+    color: #111;
+    display: inline-flex;
+    font-weight: 900;
+    justify-content: center;
+    min-height: 48px;
+    text-decoration: none;
+  }
+  .sticky-mobile-actions .call { background: #e9b949; }
+  .sticky-mobile-actions .wa { background: #25d366; }
 }
