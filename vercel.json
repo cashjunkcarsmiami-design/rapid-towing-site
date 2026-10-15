@@ -22,8 +22,13 @@
   ],
   "redirects": [
     {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/es",
-      "destination": "/#espanol",
+      "destination": "/es.html",
       "permanent": true
     },
     {
