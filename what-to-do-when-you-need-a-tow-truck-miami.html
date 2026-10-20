@@ -117,15 +117,15 @@
 
     <section class="seo-section cta-box">
       <h2>Request Help Online</h2>
-      <form name="tow-guide-request" method="POST" action="/api/contact">
+      <form name="tow-guide-request" method="POST" action="/api/contact" data-rapid-request><p data-request-note>Complete the details to prepare a WhatsApp message. Review it and press Send in WhatsApp. Nothing is booked until dispatch confirms. For urgent help, call 305-457-0817.</p>
         <input type="hidden" name="site" value="Rapid Towing - Tow Truck Guide Article">
         <input type="hidden" name="redirect" value="/thank-you.html">
         <input type="text" name="bot-field" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
-        <p><label>Name<br><input name="First Name" required></label></p>
-        <p><label>Phone<br><input name="Phone" type="tel" inputmode="tel" required></label></p>
-        <p><label>Pickup Location<br><input name="Pickup Location"></label></p>
-        <p><label>Vehicle / Problem<br><textarea name="Vehicle Problem"></textarea></label></p>
-        <button class="btn primary" type="submit">Send Request</button>
+        <p><label>Name<br><input name="name" autocomplete="name" required></label></p>
+        <p><label>Phone<br><input name="phone" autocomplete="tel" type="tel" inputmode="tel" required></label></p>
+        <p><label>Pickup Location<br><input name="pickup" required></label></p>
+        <p><label>Vehicle / Problem<br><textarea name="message" required></textarea></label></p>
+        <button class="btn primary" type="submit">Prepare WhatsApp request</button>
       </form>
     </section>
   </main>
@@ -133,5 +133,6 @@
     <a class="call" href="tel:+13054570817">Call Now</a>
     <a class="wa" href="https://wa.me/13054570817">WhatsApp</a>
   </div>
+<script defer src="/contact.js"></script>
 </body>
 </html>
